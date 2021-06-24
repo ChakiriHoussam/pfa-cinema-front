@@ -7,10 +7,16 @@ import { CinemaComponent } from './cinema/cinema.component';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 
+import { HomeComponent } from './home/home.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
-    CinemaComponent
+    CinemaComponent,
+
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,

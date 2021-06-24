@@ -111,3 +111,6 @@ export class CinemaComponent implements OnInit {
 
 
 }
+
+export class HomecinemaComponent {
+}
